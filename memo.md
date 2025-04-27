@@ -30,8 +30,8 @@ go-gemini-agent/
 
 ## agent.env or .env　ファイルを作成
 ```bash
-export GOOGLE_GENAI_USE_VERTEXAI=false         # Studio キーなら false の
-export GOOGLE_API_KEY="YOUR_ACTUAL_API_KEY" 
+GOOGLE_GENAI_USE_VERTEXAI=false         # Studio キーなら false の
+GOOGLE_API_KEY="YOUR_ACTUAL_API_KEY" 
 ```
 
 フラグ入れたかったら↓
