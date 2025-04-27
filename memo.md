@@ -1,7 +1,3 @@
-# go-gemini-agent
-
-Google Gen AI SDK for Go を使った、コンテキスト理解エージェント
-
 ## 概要
 
 - ReAct ループベースのエージェント  
