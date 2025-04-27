@@ -40,7 +40,7 @@ func (c *Chat) Run(ctx context.Context, in io.Reader, out io.Writer) error {
 				}
 			}
 		}
-		fmt.Println(out, ">>>")
+		fmt.Fprint(out, ">>>")
 	}
 	return sc.Err()
 }
